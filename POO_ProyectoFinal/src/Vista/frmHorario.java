@@ -90,6 +90,7 @@ public class frmHorario extends javax.swing.JFrame {
         jButton4.setText("LISTAR");
 
         jLabel1.setText("CURSO");
+        jLabel1.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(255, 153, 51)));
 
         jLabel2.setText("CursoID");
 
@@ -251,7 +252,7 @@ public class frmHorario extends javax.swing.JFrame {
                                             .addComponent(jTextField17)
                                             .addComponent(jTextField18)
                                             .addComponent(jTextField19))))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 129, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(28, 28, 28))
                     .addGroup(layout.createSequentialGroup()
@@ -265,7 +266,7 @@ public class frmHorario extends javax.swing.JFrame {
                             .addComponent(jLabel10)
                             .addComponent(jLabel4)
                             .addComponent(jLabel18))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 254, Short.MAX_VALUE)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 453, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(22, 22, 22))
         );
